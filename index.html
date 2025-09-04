@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">Port<span>folio</span></div>
+                <div class="menu-toggle" id="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="GunjanKumar_Resume.pdf" class="btn" id="resume-btn">Resume</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Hi, I'm Gunjan Kumar</h1>
+                    <p>I'm a passionate front-end developer specializing in creating beautiful and functional web experiences. With a focus on user-centered design, I build websites that look great and work even better.</p>
+                    <a href="#projects" class="btn">View My Work</a>
+                    <div class="social-icons">
+                        <a href=" https://github.com/itzzGunjan"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/gunjan-kumar-020128258/"><i class="fab fa-linkedin"></i></a>
+                        <!-- <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-dribbble"></i></a> -->
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="image.jpg" alt="Profile Image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>About Me</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="https://placehold.co/600x400/6f42c1/ffffff?text=About+Me" alt="About Me">
+                </div>
+                <div class="about-text">
+                    <h3><b> Scientist & MERN Developer </b></h3>
+                    <p>Hello! I'm Gunjan, a passionate Data Scientist and MERN Developer with strong problem-solving skills in Data Structures & Algorithms. I enjoy working at the intersection of data, AI, and full-stack development, creating impactful projects that are both intelligent and scalable</p>
+                    <h2>Goals</h2>
+                    <p>My goal is to leverage machine learning, deep learning, and full-stack development to solve real-world problems, build end-to-end applications, and create data-driven solutions that empower decision-making</p>
+                    <div class="skills">
+                        <div class="skill">
+                            <div class="skill-name">
+                                <span>HTML/CSS</span>
+                                <span>95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 95%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill-name">
+                                <span>JavaScript</span>
+                                <span>70%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 70%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill-name">
+                                <span>React</span>
+                                <span>65%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 65%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="skill-name">
+                                <span>Data Scientist</span>
+                                <span>50%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 50%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <div class="section-title">
+                <h2>My Projects</h2>
+            </div>
+            <div class="project-filters">
+                <button class="active" data-filter="all">All</button>
+                <button data-filter="web">Data Scientist</button>
+                <button data-filter="app">Web Development</button>
+                <!-- <button data-filter="ui">UI/UX</button> -->
+            </div>
+            <!-- 1st one -->
+            <div class="project-grid">
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="PRO1.png" alt="Project 1">
+                    </div>
+                    <div class="project-info">
+                        <h3>Portfolio -Optimizer </h3>
+                        <p>This appears to be a Markowitz Portfolio Optimization application built with Streamlit that allows users to select various funds and define a minimum required return to calculate an optimal investment portfolio mix</p>
+                        <div class="project-tags">
+                            <span>ML</span>
+                            <span>Streamlit</span>
+                            <span>Monte Carlo</span>
+                            <!-- <span>React</span> -->
+                        </div>
+                        <div class="project-links">
+                            <a href="https://portfolio-optimizer-mizhzz3klaczvab24yck3p.streamlit.app/%29"><i class="fas fa-globe"></i> Live Demo</a>
+                            <a href="https://github.com/itzzGunjan/portfolio-optimizer"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 2nd one -->
+                <!-- <div class="project-card" data-category="ui">
+                    <div class="project-image">
+                        <img src="https://placehold.co/600x400/6f42c1/ffffff?text=Project+2" alt="Project 2">
+                    </div>
+                    <div class="project-info">
+                        <h3>Travel App UI</h3>
+                        <p>Modern and intuitive user interface design for a travel booking application with interactive elements.</p>
+                        <div class="project-tags">
+                            <span>Figma</span>
+                            <span>UI Design</span>
+                            <span>Prototyping</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#"><i class="fas fa-globe"></i> Live Demo</a>
+                            <a href="#"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- 3rd one -->
+                <!-- <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="https://placehold.co/600x400/4a6cf7/ffffff?text=Project+3" alt="Project 3">
+                    </div>
+                    <div class="project-info">
+                        <h3>Task Management App</h3>
+                        <p>A drag-and-drop task management application with user authentication and real-time updates.</p>
+                        <div class="project-tags">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                            <span>Socket.io</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#"><i class="fas fa-globe"></i> Live Demo</a>
+                            <a href="#"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- 4th one -->
+                <div class="project-card" data-category="app">
+                    <div class="project-image">
+                        <img src="quizapp.png" alt="Project 4">
+                    </div>
+                    <div class="project-info">
+                        <h3>React Quiz App</h3>
+                        <p>A modern, responsive quiz application built with React that fetches trivia questions from the Open Trivia Database API. Test your knowledge with timed questions, track your progress, and see detailed results!</p>
+                        <div class="project-tags">
+                            <span>React </span>
+                            <span>Git</span>
+                            <span>JS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://itzzgunjan.github.io/quiz-app/"><i class="fas fa-globe"></i> Live Demo</a>
+                            <a href="https://github.com/itzzGunjan/quiz-app"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 5th one
+                <div class="project-card" data-category="ui">
+                    <div class="project-image">
+                        <img src="https://placehold.co/600x400/4a6cf7/ffffff?text=Project+5" alt="Project 5">
+                    </div>
+                    <div class="project-info">
+                        <h3>Banking Dashboard UI</h3>
+                        <p>Clean and modern dashboard design for a banking application with data visualization components.</p>
+                        <div class="project-tags">
+                            <span>Figma</span>
+                            <span>UI Design</span>
+                            <span>Charts.js</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#"><i class="fas fa-globe"></i> Live Demo</a>
+                            <a href="#"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- 6th one -->
+                <!-- <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="https://placehold.co/600x400/6f42c1/ffffff?text=Project+6" alt="Project 6">
+                    </div>
+                    <div class="project-info">
+                        <h3>Weather Application</h3>
+                        <p>Real-time weather application with location detection, 5-day forecast, and interactive maps.</p>
+                        <div class="project-tags">
+                            <span>JavaScript</span>
+                            <span>API</span>
+                            <span>CSS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#"><i class="fas fa-globe"></i> Live Demo</a>
+                            <a href="#"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contact Me</h2>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Talk</h3>
+                    <p>I'm currently available for work. If you have a project that you want to get started or think you need my help with something, then get in touch.</p>
+                    <div class="contact-details">
+                        <p><i class="fas fa-map-marker-alt"></i> Greater Noida, India</p>
+                        <p><i class="fas fa-envelope"></i> kumargunjan14062004@gmail.com </p>
+                        <p><i class="fas fa-phone"></i> +91 9110975505 </p>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>GUNJAN KUMAR</h3>
+                    <p>A front-end developer focused on creating intuitive and engaging web experiences.</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#">Web Development</a></li>
+                        <li><a href="#">Data Scientist</a></li>
+                        <!-- <li><a href="#">App Development</a></li> -->
+                        <!-- <li><a href="#">Consulting</a></li> -->
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Connect</h3>
+                    <ul>
+                        <li><a href="https://github.com/itzzGunjan"><i class="fab fa-github"></i> GitHub</a></li>
+                        <li><a href="https://www.linkedin.com/in/gunjan-kumar-020128258/"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+                        <!-- <li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+                        <li><a href="#"><i class="fab fa-dribbble"></i> Dribbble</a></li> -->
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
